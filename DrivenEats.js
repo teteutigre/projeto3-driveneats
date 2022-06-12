@@ -44,10 +44,22 @@ function confirmed() {
     const confirmed = document.querySelector(".confirmacao");
     confirmed.classList.add("confirmed");
 
-    const teste = document.querySelector(".testando");
-    teste.classList.remove("testando");
+    const link = document.querySelector(".hidden");
+    link.classList.remove("hidden");
 
     const esconder = document.querySelector(".esconder");
-    esconder.classList.add("testando");
+    esconder.classList.add("hidden");
   }
+}
+
+function zapzap() {
+  const mensagem = `Olá, gostaria de fazer o pedido:\n- Prato: Frango Yin Yang\n- Bebida: Coquinha Gelada\n- Sobremesa: Pudim\nTotal: R$ 27.70`;
+
+  const url = "https://wa.me/5581996087547?text=";
+
+  const codification = encodeURIComponent(mensagem);
+
+  console.log(codification);
+
+  window.open(url + codification, "_blank");
 }
