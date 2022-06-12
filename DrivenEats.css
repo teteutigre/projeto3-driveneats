@@ -92,7 +92,7 @@ header p {
 
 .pudim,
 .cola,
-.chickey {
+.chicken {
   width: 172px;
   display: flex;
   flex-direction: column;
@@ -106,7 +106,6 @@ header p {
   box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
 }
 
-/* js css index */
 .selected {
   box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25),
     inset 0px 0px 0px 5px #32b72f;
@@ -114,7 +113,6 @@ header p {
 .stick {
   display: none;
 }
-/*js css index  */
 
 .bottom_item {
   display: flex;
@@ -136,22 +134,41 @@ footer {
   right: 0;
 }
 
-button {
+footer button {
   width: 364px;
   height: 61px;
 
   border-radius: 50px;
+  border-style: none;
 
   margin: 15px 25px;
 
   background: #cbcbcb;
 }
 
-button h1 {
+footer button h1 {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 20px;
-  line-height: 23px;
 
   color: #ffffff;
+}
+
+.confirmed {
+  background-color: #32b72f;
+}
+
+a > h2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+.testando {
+  display: none;
 }
