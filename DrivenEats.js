@@ -80,3 +80,5 @@ function zapzap() {
 
   window.open(url + codification, "_blank");
 }
+
+/* ”Faça com Don!” - Tom,one piece */
